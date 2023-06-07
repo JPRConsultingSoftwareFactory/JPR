@@ -654,7 +654,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #582A7C;
+    color: #010bd4;
 }
 
 .section-title p {
@@ -1382,7 +1382,7 @@ section {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #582A7C;
+    color: #010bd4;
 }
 
 .team .member span {
@@ -1668,7 +1668,7 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    background: #582A7C;
+    background: #010bd4;
     color: #fff;
     float: left;
     width: 44px;
@@ -1683,7 +1683,7 @@ section {
 .contact .info i:hover {
     font-size: 20px;
     background: #ffffff;
-    color: #582A7C;
+    color: #010bd4;
     float: left;
     width: 44px;
     height: 44px;
@@ -1784,15 +1784,15 @@ section {
 .contact .php-email-form input[type=submit] {
     border: 0;
     padding: 10px 32px;
-    color: #582A7C;
+    color: #010bd4;
     transition: 0.4s;
     border-radius: 50px;
-    border: 2px solid #f6b024;
+    border: 2px solid #000;
     background: #fff;
 }
 
 .contact .php-email-form input[type=submit]:hover {
-    background: #582A7C;
+    background: #010bd4;
     color: #fff;
 }
 

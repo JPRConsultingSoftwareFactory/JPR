@@ -722,7 +722,7 @@ section {
 
 .about {
     padding: 240px 0;
-    background: url("../img/fabrica-1.png") top center no-repeat;
+    background: url("../img/fondojpr.png") top center no-repeat;
     position: relative;
     background-size: cover;
 }
@@ -1398,7 +1398,7 @@ section {
     display: block;
     width: 50px;
     height: 1px;
-    background: #f6b024;
+    background: #00bfd8;
     bottom: 0;
     left: 0;
 }
@@ -1424,7 +1424,8 @@ section {
     width: 32px;
     height: 32px;
     background: #ecf6fe;
-    color: #FF8300;
+    color: #00bfd8;
+    text-decoration: none;
 }
 
 .team .member .social a i {
@@ -1786,7 +1787,7 @@ section {
     color: #010bd4;
     transition: 0.4s;
     border-radius: 50px;
-    border: 2px solid #000;
+    border: 2px solid #00bfd8;
     background: #fff;
 }
 
@@ -3122,4 +3123,13 @@ section {
     100% {
         background-position: 0 50%;
     }
+}
+
+/* Imagen cuadro de dialogo */
+.img-dialogo{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
 }

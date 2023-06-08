@@ -722,7 +722,7 @@ section {
 
 .about {
     padding: 240px 0;
-    background: url("../img/fondojpr.png") top center no-repeat;
+    background: url("../img/backgrounds/fondojpr.png") top center no-repeat;
     position: relative;
     background-size: cover;
 }
@@ -935,6 +935,7 @@ section {
     padding-right: 30px;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .why-us .accordion-list span {
@@ -965,7 +966,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-    color: #f6b024;
+    color: #00bfd8;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -1120,7 +1121,7 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-    background: url("../img/STyC/Backgrounds/newsback.webp") fixed center center;
+    background: url("../img/backgrounds/fondonoticias.png") fixed center center;
     background-size: cover;
     opacity: .8;
     padding: 100px;

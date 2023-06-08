@@ -2657,7 +2657,7 @@ section {
 .contact2 .info i {
     font-size: 18px;
     background: #ffffff;
-    color: #582A7C;
+    color: #054a85;
     float: left;
     width: 44px;
     height: 44px;
@@ -2672,8 +2672,8 @@ section {
 
 .contact2 .info i:hover {
     font-size: 20px;
-    background: #582A7C;
-    color: #fff;
+    background: #fff;
+    color: #054a85;
     float: left;
     width: 44px;
     height: 44px;

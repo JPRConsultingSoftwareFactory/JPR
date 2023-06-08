@@ -522,7 +522,6 @@ h6 {
     height: 80vh;
     overflow: hidden;
     position: relative;
-    background: url("../img/fondo.png") top center;
     background-size: cover;
     position: relative;
     margin-bottom: -90px;

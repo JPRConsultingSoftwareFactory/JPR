@@ -53,7 +53,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #010bd4;
+    background: #00bfd8;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -326,7 +326,7 @@ h6 {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background:  #457cb6;
+    background:  #C2C5FF;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 8px;
@@ -342,7 +342,7 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
-    color: #FFFF;
+    color: #000;
 }
 
 .navbar .dropdown ul a i {
@@ -656,7 +656,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #010bd4;
+    color: #00007F;
 }
 
 .section-title p {
@@ -1124,14 +1124,14 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-    background: url("../img/backgrounds/fondonoticias.png") fixed center center;
+    background: url("../img/backgrounds/fondo-noticias.png") fixed center center;
     background-size: cover;
     opacity: .8;
     padding: 100px;
 }
 
 .cta h1 {
-    color: #0880e8;
+    color: #00007F;
     font-size: 60px;
     font-weight: 1000;
 }
@@ -1149,19 +1149,19 @@ section {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #0880e8;
+    color: #528513;
     background-color: #fff;
-    border: 2px solid #0880e8;
+    border: 2px solid #7CBC24;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px #0880e8;
+    box-shadow: 5px 5px 0px #7CBC24;
     transition: all 0.3s ease;
 }
 
 .cta-btn:hover {
     background-color: #fff;
-    color: #010bd4;
-    border: 2px solid #000;
-    box-shadow: 5px 5px 0px #000000;
+    color: #7CBC24;
+    border: 2px solid #528513;
+    box-shadow: 5px 5px 0px #528513;
 }
 
 .cta-btn:active {
@@ -1672,8 +1672,8 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    background: #010bd4;
-    color: #fff;
+    background: #C2C5FF;
+    color: #00003F;
     float: left;
     width: 44px;
     height: 44px;
@@ -1686,8 +1686,8 @@ section {
 
 .contact .info i:hover {
     font-size: 20px;
-    background: #ffffff;
-    color: #010bd4;
+    background: #00003F;
+    color: #C2C5FF;
     float: left;
     width: 44px;
     height: 44px;
@@ -1788,16 +1788,16 @@ section {
 .contact .php-email-form input[type=submit] {
     border: 0;
     padding: 10px 32px;
-    color: #010bd4;
+    color: #00003F;
     transition: 0.4s;
     border-radius: 50px;
-    border: 2px solid #00bfd8;
+    border: 2px solid #00003F;
     background: #fff;
 }
 
 .contact .php-email-form input[type=submit]:hover {
-    background: #010bd4;
-    color: #fff;
+    background: #C2C5FF;
+    color: #00003F;
 }
 
 @keyframes animate-loading {

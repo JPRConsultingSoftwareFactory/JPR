@@ -326,7 +326,7 @@ h6 {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #3ba2e7;
+    background:  #457cb6;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 8px;
@@ -359,6 +359,7 @@ h6 {
     opacity: 1;
     top: 100%;
     visibility: visible;
+    
 }
 
 .navbar .dropdown .dropdown ul {
@@ -382,7 +383,9 @@ h6 {
         left: -100%;
     }
 }
-
+.dropdown-item:hover{
+    background: #ABC3DC;
+}
 
 /**
 * Mobile Navigation 
@@ -2467,7 +2470,7 @@ section {
 .pie-pagina {
     padding-top: 0%;
     width: 100%;
-    background: url("/assets/img/footer.png");
+    background: url("/assets/img/headera.png");
 }
 
 .pie-pagina .grupo-1 {

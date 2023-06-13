@@ -906,8 +906,8 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 
-.why-us {
-    background: #f1f8ff;
+.why-us-2 {
+    background: #ead3f7;
     padding: 0;
 }
 
@@ -2655,7 +2655,7 @@ section {
         padding: 35px 0px;
     }
     .pie-pagina-2 .grupo-2 {
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;

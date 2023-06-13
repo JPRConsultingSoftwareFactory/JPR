@@ -88,7 +88,6 @@ h6 {
     opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -220,7 +219,7 @@ h6 {
 }
 
 #header2 .header-scrolled {
-    background-image: url("../../assets/img/header2.png");
+    background-image: url("../../assets/img/headerm.png");
     top: 0;
 }
 
@@ -2808,6 +2807,36 @@ section {
     transition: all 0.3s ease-in-out;
 }
 
+.contact2 .info2 i {
+    font-size: 18px;
+    background: #ffffff;
+    color: purple;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact2 .info2 i:hover {
+    font-size: 20px;
+    background: purple;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
 .contact2 .info h2 {
     text-align: center;
     font-size: 25px;
@@ -2819,6 +2848,16 @@ section {
 }
 
 .contact2 .info h5 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #ffffff;
+}
+
+.contact2 .info2 h5 {
     text-align: left;
     font-size: 12px;
     font-weight: bold;

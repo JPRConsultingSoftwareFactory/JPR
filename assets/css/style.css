@@ -2995,6 +2995,11 @@ section {
     transition: transform .2s;
 }
 
+.img-fluid-j:hover {
+    transform: scale(0);
+    transition: transform .0s;
+}
+
 .sticke-container {
     padding: 0px;
     margin: 0px;

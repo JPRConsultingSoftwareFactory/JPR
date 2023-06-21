@@ -3365,12 +3365,9 @@ section {
 .container .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(1, 11, 212);
 }
 
-.container .card img{
-    width: 330px;
-    height: 220px;
-}
 
 
 .container .card h4{

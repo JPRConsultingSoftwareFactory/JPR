@@ -2580,12 +2580,15 @@ section {
     padding: 15px 10px;
     text-align: center;
     color: #fff;
+    display:block;
 }
 
 .pie-pagina .grupo-2 small {
     font-size: 15px;
 }
-
+.JPR small{
+    width: 100%;
+}
 @media screen and (max-width:800px) {
     .pie-pagina .grupo-1 {
         width: 90%;
@@ -2594,10 +2597,17 @@ section {
         padding: 35px 0px;
     }
     .pie-pagina .grupo-2 {
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+    }
+    .carousel-container img{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+
     }
 }
 

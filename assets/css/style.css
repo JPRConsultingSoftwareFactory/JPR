@@ -45,7 +45,10 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-
+.titulo{
+    color: #00007F;
+    font-size: 26px;
+}
 .back-to-top {
     position: fixed;
     visibility: hidden;
@@ -424,7 +427,7 @@ h6 {
 */
 
 .mobile-nav-toggle {
-    color: #fff;
+
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -492,6 +495,7 @@ h6 {
 .navbar-mobile li:hover>a:before,
 .navbar-mobile .active:before {
     visibility: hidden;
+  
 }
 
 .navbar-mobile a:hover,
@@ -513,7 +517,7 @@ h6 {
     z-index: 99;
     opacity: 1;
     visibility: visible;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -693,7 +697,7 @@ section {
 
 .section-title p {
     margin-bottom: 0;
-    font-style: italic;
+    
 }
 
 
@@ -703,6 +707,7 @@ section {
 
 .icon-boxes {
     padding-top: 0;
+    padding-bottom: -800;
     position: relative;
     z-index: 100;
 }
@@ -714,7 +719,7 @@ section {
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 5px 5px 10px rgba(1, 11, 212);
     transition: all 0.3s ease-in-out;
-    border: rgba(1, 11, 212);
+    border: #000000;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
@@ -740,7 +745,7 @@ section {
 }
 
 .icon-boxes .title a {
-    color: #05579e;
+    color: #010BD4 ;
 }
 
 .icon-boxes .description {
@@ -756,7 +761,7 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-    padding: 240px 0;
+    
     background: url("../img/backgrounds/fondojpr.png") top center no-repeat;
     position: relative;
     background-size: cover;
@@ -849,7 +854,7 @@ section {
 --------------------------------------------------------------*/
 
 .clients .swiper-slide img {
-    opacity: 0.5;
+    
     transition: 0.3s;
 }
 
@@ -1147,12 +1152,15 @@ section {
 }
 
 .services .icon-box h4 a {
-    color: #05579e;
+    color: #010BD4 ;
     transition: 0.3s;
 }
-
+.services .icon-box h4 a {
+    color: #010BD4 ;
+    transition: 0.3s;
+}
 .services .icon-box h4 a:hover {
-    color: #0880e8;
+    color: #010BD4 ;
 }
 
 .services .icon-box p {
@@ -3348,4 +3356,82 @@ section {
 
 .header-168 {
     background-color: #A45AC4;
+}
+.container .card{
+   
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #010BD4 ;
+}
+
+
+
+
+
+
+
+.container .icon-box{
+   
+    transition: all 0.25s;
+}
+
+.container .icon-box:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(12, 10, 121, 0.2);
+}
+
+
+
+
+.container .icon-box h4{
+    font-weight: 600;
+}
+
+.container .icon-box p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .icon-box a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #010BD4 ;
+}
+.btn-danger{
+    font-size: 2px;
+    background-color: #054a85;
+    color: #00007F;
+}
+.sr-only{
+    font-size: 2px;
+    color: #010bd4;
+}
+.btn-danger .dropdown-toggle{
+    font-size: 2px;
 }

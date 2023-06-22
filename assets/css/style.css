@@ -981,13 +981,14 @@ section {
     display: block;
     position: relative;
     font-family: sofiaprobold;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 24px;
     font-weight: 500;
     padding-right: 30px;
     outline: none;
     cursor: pointer;
     text-decoration: none;
+    
 }
 
 .why-us .accordion-list span {
@@ -998,7 +999,7 @@ section {
 }
 
 .why-us .accordion-list i {
-    font-size: 24px;
+    font-size: 15px;
     position: absolute;
     right: 0;
     top: 0;
@@ -2610,8 +2611,15 @@ section {
 
     }
 }
-
-
+.caret{
+    align-items: right;
+}
+.convenio{
+    color: #010BD4;
+}
+.servicios{
+    color: #010BD4;
+}
 /* Pie de página 2 */
 
 .pie-pagina-2 {
@@ -3268,6 +3276,7 @@ section {
     color: #FFFF;
 }
 
+
 .Btn {
     width: 145px;
     height: 45px;
@@ -3289,6 +3298,95 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+.boton {
+    padding: 1px 6px;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+   font-style: normal;
+    font-size: 500px;
+    font-weight: 500px;
+    size: 20px;
+   
+    
+    
+    
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+    position: absolute;
+    display: flex;
+  }
+  .google{
+    margin-top: 30px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b17bb;
+    background-color: #320b9b;
+    padding: 5px;
+  }
+  
+  .info{
+    font-size: 20px;
+  }
+  
+  .boton:hover {
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  .boton:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  .boton::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  .about:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+  
 
 .svgContainer svg {
     width: 16px;

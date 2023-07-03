@@ -994,6 +994,8 @@ section {
     color: #00007F;
 }
 
+
+
 .why-us .accordion-list span {
     color: #0880e8;
     font-weight: 600;
@@ -3307,9 +3309,9 @@ section {
     border-radius: 7px;
     border: 1px solid rgb(61, 106, 255);
    font-style: normal;
-    font-size: 500px;
-    font-weight: 500px;
-    size: 20px;
+    font-size: 300px;
+    font-weight: 300px;
+    size: 13px;
    
     
     
@@ -3319,7 +3321,7 @@ section {
     transition: all 0.2s ease-in;
     
     position: absolute;
-    display: flex;
+    
   }
   .google{
     margin-top: 30px;

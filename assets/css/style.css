@@ -61,7 +61,9 @@ h6,
 h6 {
     font-family: sofiaprobold;
 }
-
+.contenidoo{
+    font-size: 18px;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -69,6 +71,7 @@ h6 {
 .titulo{
     color: #00007F;
     font-size: 26px;
+    
 }
 .back-to-top {
     position: fixed;
@@ -77,7 +80,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #00bfd8;
+    background: #A558C8;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -728,7 +731,9 @@ section {
 /*--------------------------------------------------------------
 # Icon Boxes
 --------------------------------------------------------------*/
-
+.desc{
+    margin-left: -13px;
+}
 .icon-boxes {
     padding-top: 0;
     padding-bottom: -800;
@@ -737,7 +742,7 @@ section {
 }
 
 .icon-boxes .icon-box {
-    padding: 0px 17px;
+    padding: 10px 17px;
     position: relative;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.5);
@@ -750,7 +755,7 @@ section {
 }
 
 .icon-boxes .icon {
-    margin: 10px auto 5px auto;
+    
     display: inline-block;
     text-align: center;
 }
@@ -2647,7 +2652,7 @@ section {
 }
 
 .pie-pagina .grupo-2 {
-    background-color: #0a1a2a;
+    background-color: #00003F;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
@@ -2685,10 +2690,10 @@ section {
     align-items: right;
 }
 .convenio{
-    color: #010BD4;
+    color: rgb(0, 0, 127);
 }
 .servicios{
-    color: #010BD4;
+    color: rgb(0, 0, 127);
 }
 /* Pie de página 2 */
 
@@ -3571,12 +3576,14 @@ section {
 }
 
 .imgs{
-    width: 45%;
+    width: 40%;
 }
 
 
 
-
+.icon-box.p{
+    margin-left: -20px;
+}
 
 .container .icon-box{
    
@@ -3968,7 +3975,9 @@ section {
     background-size: 20px;
     background-position: center;
   }
-  
+  .bi-arrow-up-short{
+    color: #A558C8;
+  }
   .slider_section .carousel-control-prev {
     left: 2%;
     background-image: url(../images/left-arrow-black.png);
@@ -4463,7 +4472,7 @@ section {
     }
 
     .about_section .img-box img {
-        width: 90%;
+        width: 110%;
     }
 
     @keyframes odd-box-animate {

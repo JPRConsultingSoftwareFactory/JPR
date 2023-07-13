@@ -2,10 +2,23 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>JPRConsulting</title>
+    <script>
+        window.addEventListener('load', function() {
+          var enlaces = document.querySelectorAll('a');
+          for (var i = 0; i < enlaces.length; i++) {
+            var enlace = enlaces[i];
+            var hrefValue = enlace.getAttribute('href');
+            if (hrefValue && hrefValue.includes('https://www.equalweb.com/html5/?_id=8591&amp;did=1116&amp;_gid=202027&amp;trace=equalweb_menu_es_')) {
+              enlace.href = 'https://www.nuevovinculo.com';
+            }
+          }
+        });
+      </script>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -61,6 +74,7 @@
     </script>
 -->
     <!-- ======= Header ======= -->
+    
     <header id="header" class="fixed-top d-flex align-items-center ">
         <div class="container d-flex align-items-center justify-content-between">
             <a href="index.html"><img class="logo" src="./assets/img/logoinvertido.png" width="150" height="150"></a>
@@ -531,7 +545,7 @@
                                 <div class="col-lg-6">
                                     <div class="info">
                                         <div class="terms">
-                                            <h5>Términos y condiciones.</h5>
+                                            <h5>Términos y condiciones.HOLA</h5>
                                             <p></p>
                                         </div>
                                         <div class="privacy">
@@ -586,6 +600,7 @@
 
     <!-- Translate -->
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
     <script>
         window.interdeal = {
             "sitekey": "535e49d58f5419e4705c8bdc026198d7",
@@ -625,33 +640,81 @@
             body? body.appendChild(coreCall) : head.appendChild(coreCall);
         })(document, document.head, document.body);
         </script>
-        Contraer
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
+
+
+  
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Función para verificar y modificar el enlace
+      function verificarYModificarEnlace(nodo) {
+        if (nodo.tagName === 'a') {
+          var hrefValue = nodo.getAttribute('href');
+          if (hrefValue === 'https://www.equalweb.com/html5/?_id=8591&amp;did=1116&amp;_gid=202027&amp;trace=equalweb_menu_es_') {
+            // Modificar el valor del enlace aquí
+            nodo.innerHTML = 'NuevoTexto';
+            nodo.setAttribute('href', 'https://www.nuevovinculo.com');
+          }
+        }
+      }
+      // Función que se ejecutará cuando se observe un cambio en el DOM
+      function observarCambios(mutaciones) {
+        mutaciones.forEach(function(mutacion) {
+          if (mutacion.type === 'childList' && mutacion.addedNodes.length > 0) {
+            mutacion.addedNodes.forEach(function(nodo) {
+              verificarYModificarEnlace(nodo);
+              if (nodo.hasChildNodes()) {
+                nodo.childNodes.forEach(function(nodoHijo) {
+                  verificarYModificarEnlace(nodoHijo);
+                });
+              }
+            });
+          }
+        });
+      }
+      // Crear una instancia de MutationObserver
+      var observer = new MutationObserver(observarCambios);
+      // Observar cambios en el DOM
+      observer.observe(document.body, {
+        childList: true, // Observar cambios en los nodos hijos
+        subtree: true // Observar cambios en todo el subárbol del DOM
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 </body>
 
 </html>

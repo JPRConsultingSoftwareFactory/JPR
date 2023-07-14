@@ -1,24 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>JPRConsulting</title>
-    <script>
-        window.addEventListener('load', function() {
-          var enlaces = document.querySelectorAll('a');
-          for (var i = 0; i < enlaces.length; i++) {
-            var enlace = enlaces[i];
-            var hrefValue = enlace.getAttribute('href');
-            if (hrefValue && hrefValue.includes('https://www.equalweb.com/html5/?_id=8591&amp;did=1116&amp;_gid=202027&amp;trace=equalweb_menu_es_')) {
-              enlace.href = 'https://www.nuevovinculo.com';
-            }
-          }
-        });
-      </script>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -27,7 +15,7 @@
     <link href="" rel="apple-touch-icon">
 
     <!--  Fonts -->
-    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -40,76 +28,47 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./assets/css/boots.css">
+    <link href="assets/css/estile.css" rel="stylesheet">
 </head>
 
 <body>
-    <!---
-    <div id="myModal" class="modal fade" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title">PRÓXIMO EVENTO</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img class="img-dialogo" src="assets/img/anuncio.png">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        $(document).ready(function() {
-            $("#myModal").modal('show');
-        });
-    </script>
--->
     <!-- ======= Header ======= -->
-    
     <header id="header" class="fixed-top d-flex align-items-center ">
         <div class="container d-flex align-items-center justify-content-between">
             <a href="index.html"><img class="logo" src="./assets/img/logoinvertido.png" width="150" height="150"></a>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
-                    <li><a class="nav-link scrollto" href="./services.html">Servicios</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>
+                    <li><a class="nav-link scrollto active" href="./services.html">Servicios</a></li>
                     <!-- <li class="nav-link nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                <li><a class="dropdown-item" href="./services.html">Servicios</a></li>
-                                <li><a class="dropdown-item" href="b.html">Despidos injustificados</a></li>
-                                <li><a class="dropdown-item" href="blog-home.html">Inspecciones laborales</a></li>
-                            </ul>
-                        </li> -->
-                    <li><a class="nav-link scrollto" href="./organigrama.html">Organigrama</a></li>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                            <li><a class="dropdown-item" href="./services.html">Servicios</a></li>
+                            <li><a class="dropdown-item" href="b.html">Despidos injustificados</a></li>
+                            <li><a class="dropdown-item" href="blog-home.html">Inspecciones laborales</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a class="nav-link" href="./organigrama.html">Organigrama</a></li>
                     <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="transparencia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Transparencia</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                <li><a class="dropdown-item" href="organigrama.html">Organigrama</a></li>
-                            </ul>
-                        </li> -->
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="transparencia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Transparencia</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                            <li><a class="dropdown-item" href="organigrama.html">Organigrama</a></li>
+                        </ul>
+                    </li> -->
                     <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Direcciones</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="news.html">Noticias</a></li>
                    
+
                     <!-- <li class="nav-item"><a class="nav-link" href="faq.html">Conoce tus derechos</a></li> -->
                     <!-- <li class="nav-item dropdown"> 
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bolsa de trabajo</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                <li><a class="dropdown-item" href="https://www.empleo.gob.mx/vacantes-gratis">Empleadores</a></li>
-                                <li><a class="dropdown-item" href="https://www.empleo.gob.mx/vacantes/tlaxcala">Empleados</a></li>
-                                <li><a class="dropdown-item" href="https://www.empleo.gob.mx/vacantes/tlaxcala">Vacantes disponibles</a></li>
-                            </ul>
-                        </li>-->
-                        <li class="nav-item"><a class="nav-link" href="fabrica.html">Nuestros métodos</a></li>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bolsa de trabajo</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                            <li><a class="dropdown-item" href="https://www.empleo.gob.mx/vacantes-gratis">Empleadores</a></li>
+                            <li><a class="dropdown-item" href="https://www.empleo.gob.mx/vacantes/tlaxcala">Empleados</a></li>
+                            <li><a class="dropdown-item" href="https://www.empleo.gob.mx/vacantes/tlaxcala">Vacantes disponibles</a></li>
+                        </ul>
+                    </li>-->
+                    <li class="nav-item"><a class="nav-link" href="fabrica.html">Nuestros métodos</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>

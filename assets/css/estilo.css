@@ -3577,6 +3577,7 @@ section {
 
 .imgs{
     width: 40%;
+    align-items: center;
 }
 
 
@@ -3729,6 +3730,13 @@ section {
   .organigrama > ul > li > ul > li > a {
     width: 8em;
   }
+  .layout_padding2 .imgs{
+    align-content: center;
+  }
+  .img-box{
+    align-content: center;
+    align-items: center;
+  }
   .layout_padding {
     padding: 75px 0;
   }
@@ -3744,6 +3752,9 @@ section {
   
   .layout_padding2-bottom {
     padding-bottom: 45px;
+  }
+  .layout_padding2 .imgs{
+    align-content: center;
   }
   
   .layout_padding-top {
@@ -4004,7 +4015,7 @@ section {
   
   .about_section {
     margin-top: -100px;
-    text-align: center;
+    
   }
   
   .service_section {
@@ -4424,6 +4435,7 @@ section {
 
 
 }
+
 
 @media (max-width: 768px) {
     .slider_section .detail-box {

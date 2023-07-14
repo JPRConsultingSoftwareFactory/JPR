@@ -4007,10 +4007,6 @@ section {
     text-align: center;
   }
   
-  .about_section .img-box img {
-    
-  }
-  
   .service_section {
     text-align: center;
     position: relative;
@@ -4518,7 +4514,7 @@ section {
         font-size: 3rem;
     }
 
-    element {}
+  
 
     .custom_heading-container h3 {
 
@@ -4541,5 +4537,4 @@ section {
         max-width: 1170px;
     }
 }
-  /* end footer section*/
-  /*# sourceMappingURL=style.css.map */
+
